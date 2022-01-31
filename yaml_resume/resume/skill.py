@@ -12,7 +12,7 @@ class Skill(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Skill"
+    yaml_tag = "Skill"
 
     def __init__(self, name, level):
         self.name = name

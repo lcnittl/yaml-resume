@@ -12,7 +12,7 @@ class Hobby(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Hobby"
+    yaml_tag = "Hobby"
 
     def __init__(self, name, details):
         self.name = name

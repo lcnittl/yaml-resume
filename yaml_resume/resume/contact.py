@@ -18,7 +18,7 @@ class Location(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Location"
+    yaml_tag = "Location"
 
     def __init__(self, address, city, zipcode, state="", country=""):
         self.address = address
@@ -78,7 +78,7 @@ class Contact(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Contact"
+    yaml_tag = "Contact"
 
     def __init__(self, name, date_of_birth, job, summary, email, phone, location):
         self.name = name

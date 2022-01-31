@@ -12,7 +12,7 @@ class Language(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Language"
+    yaml_tag = "Language"
 
     def __init__(self, name, level):
         self.name = name

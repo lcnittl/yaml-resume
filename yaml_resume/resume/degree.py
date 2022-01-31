@@ -18,7 +18,7 @@ class Degree(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Degree"
+    yaml_tag = "Degree"
 
     def __init__(self, institution, degree, start_date, end_date, website):
         self.institution = institution

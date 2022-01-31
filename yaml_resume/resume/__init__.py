@@ -32,7 +32,7 @@ class Resume(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Resume"
+    yaml_tag = "Resume"
 
     def __init__(
         self,

@@ -12,7 +12,7 @@ class Profile(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Profile"
+    yaml_tag = "Profile"
 
     def __init__(self, network, url):
         self.network = network

@@ -13,7 +13,7 @@ class Project(yaml.YAMLObject):
     :type url: str
     """
 
-    yaml_tag = u"Project"
+    yaml_tag = "Project"
 
     def __init__(self, name, description, url):
         self.name = name

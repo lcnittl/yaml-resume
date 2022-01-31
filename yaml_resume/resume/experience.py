@@ -22,7 +22,7 @@ class Experience(yaml.YAMLObject):
 
     """
 
-    yaml_tag = u"Experience"
+    yaml_tag = "Experience"
 
     def __init__(self, company, position, start_date, end_date, summary, tags, website):
         self.company = company
